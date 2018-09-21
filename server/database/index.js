@@ -5,7 +5,7 @@ mongoose.set('useUpdate', false)
 
 //your local database url
 //27017 is the default mongoDB port
-const uri = 'mongodb+srv://bpDataMan1:F6f5g32ynEg22gG@bunkpointscluster0-wqin6.mongodb.net'
+const uri = /*DB link goes here*/;
 const collection = 'users'
 
 mongoose.connect(uri + '/' + collection, { useNewUrlParser: true }).then(
